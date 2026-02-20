@@ -1,0 +1,46 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+*.exe
+.vs/
+*.DotSettings.user
+
+## IDE
+.idea/
+.vscode/
+*.swp
+
+## Environment
+.env
+appsettings.Development.json
+appsettings.Local.json
+
+## Node
+node_modules/
+admin/.next/
+admin/out/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+logs/
+
+## Telegram session
+*.session
+# .NET build outputs
+bin/
+obj/
+
+# environment & secrets
+.env
+*.env
+appsettings.Development.json
+appsettings.Production.json

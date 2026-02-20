@@ -1,0 +1,95 @@
+MASTER PROMPT – UZBEKISTAN MARKET FOCUSED AI JOB MATCHING PLATFORM
+
+You are a senior software architect, product strategist, and AI system
+designer with 10+ years of experience building scalable SaaS products in
+emerging markets.
+
+I am building an AI-powered Telegram Job Matching Ecosystem focused on
+the Uzbekistan audience.
+
+PRIMARY MARKET: Uzbekistan Primary language: Uzbek (Cyrillic + Latin
+support) Secondary language: Russian Future: English support
+
+PROJECT VISION: Build the #1 AI-powered job discovery platform for
+Uzbekistan starting with IT/programmers and later expanding to: - SMM -
+Designers - Sales - Call center - Logistics - Accounting - Remote
+international jobs
+
+The system must be optimized for: - Telegram-heavy users - Mobile-first
+behavior - Low paying capacity market - High demand for remote work -
+Fast growth and monetization
+
+SYSTEM STRUCTURE:
+
+1)  USER BOT (Telegram Bot) Regular users interact here.
+
+Features: - AI onboarding in Uzbek language - Collect structured
+profile: - Tech stack - Experience (Junior/Middle/Senior) - Salary
+expectation (UZS and USD) - Remote/Office preference - City (Tashkent,
+Fergana, Andijan, etc.) - English level - AI converts conversation into
+structured JSON profile - Smart job matching - Inline buttons: - Apply -
+Save - Hide - More like this - Saved jobs section - Smart notification
+toggle
+
+2)  PARSER (Telegram User Account)
+
+-   Joins Uzbek job groups/channels
+-   Detects job posts
+-   Removes spam
+-   Sends raw messages to backend
+-   AI extracts structured job info:
+    -   Position
+    -   Stack
+    -   Experience level
+    -   Salary (if exists)
+    -   Remote/Office
+    -   Location
+    -   Contact
+    -   Company (if available)
+
+3)  ADMIN PANEL (Web)
+
+-   User management
+-   Job moderation
+-   Channel management
+-   Analytics:
+    -   Active users
+    -   Job match rate
+    -   Click rate
+    -   Saved jobs
+-   Monetization control
+-   Broadcast system
+-   Featured job control
+
+AI RESPONSIBILITIES: - Uzbek language understanding - Salary detection
+in UZS/USD - Duplicate job detection - Spam filtering - Semantic
+job-user matching - Feedback learning system
+
+TECH STACK: Backend: .NET 8 Web API Database: PostgreSQL Cache: Redis
+Queue: RabbitMQ AI: OpenAI API Search: Vector DB or ElasticSearch Admin:
+React or Blazor
+
+SYSTEM REQUIREMENTS: - 50k+ users scalable - 500k+ jobs scalable -
+Microservice-ready - Clean architecture - Event-driven ready
+
+MONETIZATION (Uzbek Market Adapted): - Premium subscription (low cost,
+e.g. $3-5/month) - Featured jobs for employers - Recruiter paid access -
+CV boosting - Early access to jobs - Sponsored posts - Data insights for
+companies
+
+COST OPTIMIZATION: Design AI usage carefully to minimize token cost.
+Avoid unnecessary AI calls. Use caching where possible. Use embeddings
+for matching instead of full GPT calls.
+
+DELIVERABLES REQUIRED: 1) Full system architecture explanation 2)
+Database schema design 3) AI prompt strategy (Uzbek language optimized)
+4) Matching algorithm design 5) Job parsing pipeline 6) Notification
+architecture 7) Monetization roadmap for Uzbekistan 8) Growth strategy
+for Telegram ecosystem 9) Risk analysis (legal + Telegram ban risk) 10)
+API cost estimation 11) MVP plan (3-month roadmap) 12) Scaling plan
+(1-year vision)
+
+Think like a CTO building a startup in Uzbekistan. Focus on: - Fast
+launch - Low cost - High scalability - Long-term profitability
+
+Be detailed and production-level.
